@@ -4,7 +4,7 @@ body{
 }
 
 .primary{
-    color: orangered;
+    color: antiquewhite;
   }
  .butt-primary {
     border-radius: 5px;
@@ -24,7 +24,8 @@ nav {
 .nav-title{
     font-size: 50px;
     font-weight: 800;
-    color: aquamarine;
+    color: black;
+    padding-left: 10px;
 }
 
 nav > ul {
@@ -37,5 +38,20 @@ nav li {
 }
 nav a {
     text-decoration: none;
-    color: brown
+    color: rgb(239, 231, 231)
 }
+/* header section */
+
+.header {
+   background-color: lightpink;
+}
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    
+}
+.banner .banner-img {
+    width: 584px;
+    height: 676px;
+} 
